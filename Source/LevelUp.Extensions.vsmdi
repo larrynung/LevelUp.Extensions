@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestLists xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestList name="Lists of Tests" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <RunConfiguration id="ec6afac8-4e34-4fdd-8349-0659ce47e0cd" name="Local Test Run" storage="localtestrun.testrunconfig" type="Microsoft.VisualStudio.TestTools.Common.TestRunConfiguration, Microsoft.VisualStudio.QualityTools.Common,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestList>
+  <TestList name="StringExtensionTest" id="ca178744-4099-4f97-9696-04e00446d5e9" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="97dc1159-7082-398b-5ebe-2c8aa2a417e1" name="IsNullOrEmpty_InputUnNullAndEmptyString_ReturnFalse" storage="levelup.extensions.test\bin\debug\levelup.extensions.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="d0c4207a-d897-1bab-fa65-b0856253dc2a" name="IsNullOrEmpty_InputNull_ReturnTrue" storage="levelup.extensions.test\bin\debug\levelup.extensions.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="3d050f56-7350-3919-625f-f6a965007398" name="IsNullOrEmpty_InputEmptyString_ReturnTrue" storage="levelup.extensions.test\bin\debug\levelup.extensions.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+</TestLists>
