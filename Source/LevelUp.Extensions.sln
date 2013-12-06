@@ -1,17 +1,17 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelUp.Extensions.Core", "LevelUp.Extensions.Core\LevelUp.Extensions.Core.csproj", "{56F8F0ED-AFC0-4063-AD4B-2303764EE941}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelUp.Extensions.Control", "LevelUp.Extensions.Control\LevelUp.Extensions.Control.csproj", "{A0BEFA34-7EEC-46B8-84B6-FD3DDF4D86E8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelUp.Extensions.Test", "LevelUp.Extensions.Test\LevelUp.Extensions.Test.csproj", "{22635648-A121-46EC-B8B1-7D2177030910}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69041507-038E-4451-8428-7BC631E6B3F3}"
 	ProjectSection(SolutionItems) = preProject
 		LevelUp.Extensions.vsmdi = LevelUp.Extensions.vsmdi
 		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelUp.Extensions.Core", "LevelUp.Extensions.Core\LevelUp.Extensions.Core.csproj", "{56F8F0ED-AFC0-4063-AD4B-2303764EE941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelUp.Extensions.Control", "LevelUp.Extensions.Control\LevelUp.Extensions.Control.csproj", "{A0BEFA34-7EEC-46B8-84B6-FD3DDF4D86E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelUp.Extensions.Test", "LevelUp.Extensions.Test\LevelUp.Extensions.Test.csproj", "{22635648-A121-46EC-B8B1-7D2177030910}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution

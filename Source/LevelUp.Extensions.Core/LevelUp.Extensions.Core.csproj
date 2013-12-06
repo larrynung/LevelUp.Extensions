@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -12,8 +12,11 @@
     <AssemblyName>LevelUp.Extensions.Core</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkSubset>
-    </TargetFrameworkSubset>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -53,19 +56,19 @@
     <Compile Include="Src\Class\FileHelper.cs" />
     <Compile Include="Src\Class\NativeMethods.cs" />
     <Compile Include="Src\Exception\NoAssociatedFileTypeException.cs" />
-    <Compile Include="Src\Extensions\CharExtension.cs" />
-    <Compile Include="Src\Extensions\CollectionExtension.cs" />
-    <Compile Include="Src\Extensions\DateTimeExtenstion.cs" />
-    <Compile Include="Src\Extensions\DirectoryInfoExtension.cs" />
-    <Compile Include="Src\Extensions\EnumExtension.cs" />
-    <Compile Include="Src\Extensions\FileInfoExtension.cs" />
-    <Compile Include="Src\Extensions\IEnumerableExtension.cs" />
-    <Compile Include="Src\Extensions\ObjectExtension.cs" />
-    <Compile Include="Src\Extensions\PerformanceCounterExtension.cs" />
-    <Compile Include="Src\Extensions\ProcessExtension.cs" />
+    <Compile Include="Src\Extension\CharExtension.cs" />
+    <Compile Include="Src\Extension\CollectionExtension.cs" />
+    <Compile Include="Src\Extension\DateTimeExtenstion.cs" />
+    <Compile Include="Src\Extension\DirectoryInfoExtension.cs" />
+    <Compile Include="Src\Extension\EnumExtension.cs" />
+    <Compile Include="Src\Extension\FileInfoExtension.cs" />
+    <Compile Include="Src\Extension\IEnumerableExtension.cs" />
+    <Compile Include="Src\Extension\ObjectExtension.cs" />
+    <Compile Include="Src\Extension\PerformanceCounterExtension.cs" />
+    <Compile Include="Src\Extension\ProcessExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Src\Extensions\StreamExtension.cs" />
-    <Compile Include="Src\Extensions\StringExtension.cs" />
+    <Compile Include="Src\Extension\StreamExtension.cs" />
+    <Compile Include="Src\Extension\StringExtension.cs" />
     <Compile Include="Src\Struct\CopyDataStruct.cs" />
     <Compile Include="Src\Struct\WIN32_FIND_DATA.cs" />
     <Compile Include="Src\Struct\WNDCLASS.cs" />
