@@ -6,3 +6,4 @@ install:
   - sudo apt-get install mono-devel mono-gmcs nunit-console
 script:
   - xbuild Source/LevelUp.Extensions.Core\LevelUp.Extensions.Core.csproj
+  - xbuild Source/LevelUp.Extensions.Control\LevelUp.Extensions.Control.csproj
